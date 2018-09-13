@@ -46,7 +46,7 @@ function! S_file_size(f)
 endfunction
 
 function! S_full_path()
-  return &filetype ==# 'startify' ? '' : expand('%:p:t')
+  return &filetype ==# 'startify' ? '' : expand('%:p')
 endfunction
 
 function! S_ale_error()
